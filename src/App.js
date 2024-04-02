@@ -4,20 +4,8 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <h2 className=' text-4xl underline font-semibold'>HELLO TAILWIND</h2>
+     <p className=' font-semibold'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ducimus, corporis rem libero ipsam voluptatibus vero quis voluptas illum sunt alias minima nulla, maiores eos molestiae non maxime eveniet animi?</p>
     </div>
   );
 }
