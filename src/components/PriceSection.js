@@ -15,9 +15,10 @@ const PriceSection = () => {
     ]
 
     return (
-        <div>
-           <h2 className=' text-5xl text-center font-bold bg-lime-700 p-10 text-white mt-3 rounded-md '>Pricing Product</h2>
-            <div className='grid md:grid-cols-2 xl:grid-cols-3 gap-4 h-36 my-5 '>
+        <div className='  '>
+           <h2 className=' text-5xl p-4 text-center font-bold bg-lime-700  text-white mt-3 rounded-md '> Product Pricing</h2>
+
+            <div className=' bg-red-200 h-auto grid md:grid-cols-2 xl:grid-cols-3 gap-4 my-5 '>
                 {
                 priceOption.map( price => <Pricing
                     key={price.id}

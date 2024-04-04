@@ -19,7 +19,7 @@ const Pricing = ( {price} ) => {
                     services={service}
                 ></FeatureData>)
             }
-            <button className=' bg-green-500 text-white w-full py-4 rounded-b-md font-semibold mt-6'>Buy Now</button>
+            <button className=' my-4 hover:bg-green-300 bg-green-500 text-white w-full py-4 rounded-b-md font-semibold mt-6'>Buy Now</button>
         </div>
     );
 };
